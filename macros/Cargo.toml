@@ -1,0 +1,10 @@
+workspace = { members = ["hello_macros"] }
+[package]
+name = "macros"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hello_macros ={ path = "./hello_macros"}
